@@ -1,0 +1,12 @@
+void main (){
+
+  List<int> nums = [2, 7, 4, 9, 1, 6, 3];
+
+  for (int n in nums) {
+    if (n > 5) {
+        print(n);
+    }
+
+  }
+
+}
