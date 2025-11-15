@@ -1,0 +1,12 @@
+void main (){
+     
+    String word = "radar";
+    String reversed =
+    word.split('').reversed.join('');
+
+    if (word == reversed){
+        print("$word is a palindrome.");
+    } else {
+        print("$word is not a palindrome.");
+    }
+   }
